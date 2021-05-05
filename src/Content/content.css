@@ -1,0 +1,11 @@
+.App-wrapper > div:not(.main-banner) {
+    padding: 0 8rem;
+  }
+
+.App-wrapper > div {
+  padding-bottom: 5rem;
+}
+
+div#root {
+  background: linear-gradient(#fff, #333);
+}

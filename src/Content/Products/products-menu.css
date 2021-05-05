@@ -1,0 +1,30 @@
+.product-item {
+  text-align: center;
+  background: white;
+  font-size: 1.25em;
+  letter-spacing: 2px;
+  font-weight: bold;
+}
+
+.product-item p {
+  margin: .75em auto;
+}
+
+.products-menu {
+  grid-template-columns: repeat(auto-fill, minmax(20em, 1fr));
+  grid-gap: 1rem;
+}
+
+.self-grid-block {
+    text-align: right;
+    display: grid;
+    justify-items: end;
+}
+
+.self-grid-block > div {
+  margin: 1em 0;
+}
+
+.self-grid-block img {
+  max-height: calc(39em - 8em);
+}

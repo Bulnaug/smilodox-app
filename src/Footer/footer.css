@@ -1,0 +1,29 @@
+.App-footer {
+    background-color: #27282c;
+    color: #fff;
+    position: relative;
+    padding: 3rem 8rem;
+    line-height: 2;
+  }
+  
+  .App-footer a {
+    color: #fff;
+  }
+
+.App-footer > div {
+    display: flex;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-logo {
+  width: 100%;
+}
+
+.App-footer > div {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 1rem;
+  justify-items: end;
+}

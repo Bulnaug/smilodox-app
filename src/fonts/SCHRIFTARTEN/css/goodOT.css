@@ -1,0 +1,6 @@
+@font-face {
+    font-family: Good OT;
+    src:        url("../GoodOT/GoodOT-Bold.otf") format("opentype"),
+                url("../GoodOT/GoodOT-Italic.otf") format("opentype"),
+                url("../GoodOT/GoodOT.otf") format("opentype");   
+    }

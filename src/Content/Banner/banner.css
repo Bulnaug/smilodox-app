@@ -1,0 +1,22 @@
+.main-banner {
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  background-image: attr(data-image-src url);
+}
+
+.main-banner img{
+  max-width: 100%;
+  align-self: baseline;
+}
+
+h1 {
+  position: absolute;
+  padding: 1rem;
+  color: white;
+  margin-bottom: 7rem;
+  font-family: Good Headline Pro;
+  background: black;
+  opacity: .8;
+  margin-left: 1rem;
+}
